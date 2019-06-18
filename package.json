@@ -1,0 +1,19 @@
+{
+  "name": "gitflow",
+  "version": "1.0.0",
+  "description": "flows for the git repo ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Preethamveigas/gitflow.git"
+  },
+  "author": "preetham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Preethamveigas/gitflow/issues"
+  },
+  "homepage": "https://github.com/Preethamveigas/gitflow#readme"
+}
