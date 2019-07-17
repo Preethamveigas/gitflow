@@ -1,0 +1,163 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+
+@font-face {
+    font-family: "CustomFont";
+    src: url("https://yoursite.com/css/fonts/CustomFont.eot");
+    src: url("https://yoursite.com/css/fonts/CustomFont.woff") format("woff"),
+        url("https://yoursite.com/css/fonts/CustomFont.otf") format("opentype"),
+        url("https://yoursite.com/css/fonts/CustomFont.svg#filename") format("svg");
+}
+
+a {
+    color: #20a8d8;
+    text-decoration: none !important;
+    background-color: transparent;
+}
+
+div#outer-div {
+    background-image: url('commonBg.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 1015px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 30px 0 rgba(0, 0, 0, 0.16);
+    background-color: white;
+    margin-bottom: 0;
+    border: none;
+    display: inline-flex;
+}
+
+.castability_logo_section {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    width: 509px;
+    height: 540px;
+}
+
+.castability_logo {
+    position: absolute;
+    top: 183px;
+    right: 182px;
+    width: 195.9px;
+    height: 159.5px;
+    object-fit: contain;
+}
+
+.form-padding {
+    padding-top: 35px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 70px;
+    width: 50%;
+}
+
+.Login-to-your-account {
+    height: 33px;
+    object-fit: contain;
+    font-size: 27.4px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Gilroy-Heavy';
+}
+
+.login-input-control {
+    height: 70.2px;
+    object-fit: contain;
+    background-color: #f9f9f9;
+    font-size: 14.6px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.42;
+    letter-spacing: 0.6px;
+    text-align: left;
+    color: #a3a3a3;
+    border-radius: 36px;
+    margin-bottom: 25px;
+    padding: 0px 32px;
+    border: none !important;
+    font-family: 'Gilroy-Light';
+    width: 100%;
+}
+
+.btn-change-pass {
+    width: 100%;
+    height: 70.2px;
+    border-radius: 51px;
+    background-color: #717171;
+    border: none;
+    margin-top: 35px;
+    font-size: 20px;
+    padding: 18px;
+    box-shadow: 1px 1px 18px 0 rgba(35, 31, 32, 0.08);
+    font-family: 'Gilroy-Bold';
+    color: white;
+}
+
+.btn-change-pass:hover,
+.btn-change-pass:focus {
+    background-color: #a3a3a3;
+    border-color: #717171;
+    box-shadow: none;
+}
+
+.login-input-control:focus {
+    border-color: #717171;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.025), 0 0 5px #717171;
+    background-color: #ffffff;
+}
+
+.btn-forgot {
+    object-fit: contain;
+    font-size: 15px;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #a3a3a3 !important;
+    font-family: 'Gilroy-Light';
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-forgot-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 991px) {
+    .card {
+        display: block;
+        margin: 5%;
+    }
+
+    .form-padding {
+        width: 90%;
+        padding: 5%;
+    }
+
+    .castability_logo_section {
+        display: none;
+    }
+}
