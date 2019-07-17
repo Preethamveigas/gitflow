@@ -19,7 +19,7 @@ a {
 }
 
 div#outer-div {
-    background-image: url('commonBg.png');
+    background-image: url('https://raw.githubusercontent.com/Preethamveigas/gitflow/dev/stylesheets/commonBg.png');
     background-size: cover;
     background-position: center;
     min-height: 100%;
